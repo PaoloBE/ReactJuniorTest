@@ -10,6 +10,19 @@ main {
     color: antiquewhite;
     margin: 0 3em;
 }
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 1em 1em;
+}
+header button {
+    margin: 0.8em 0.5em;
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    color: #c5fdc0;
+    cursor: pointer;
+}
 section {
     display: flex;
     justify-content: space-between;
